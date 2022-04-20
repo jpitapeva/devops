@@ -8,6 +8,6 @@ metadata:
     - title: Website
       url: http://backstage.io
 spec:
-  type: library
+  type: .Net 6.0
   owner: CNCF
   lifecycle: experimental
