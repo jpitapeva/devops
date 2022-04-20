@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
-kind: .Net 6.0
+kind: Component
 metadata:
   name: backstage
   description: |
     Backstage is an open-source developer portal that puts the developer experience first.
 spec:
-  type: .Net 6.0
+  type: Component
   owner: Joao Antunes
   lifecycle: experimental
