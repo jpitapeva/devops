@@ -1,10 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: backstage
-  description: |
-    Backstage is an open-source developer portal that puts the developer experience first.
+  name: pbtech
+  description: pbtech
+  tags:
+    - spotify
+    - rest
+  annotations:
+    # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
+    backstage.io/definition-at-location: 'url:https://raw.githubusercontent.com/APIs-guru/openapi-directory/master/APIs/spotify.com/v1/swagger.yaml'
 spec:
   type: openapi
-  owner: Joao Antunes
-  lifecycle: experimental
+  lifecycle: production
+  owner: team-joao
+  definition:
+    $text: https://github.com/APIs-guru/openapi-directory/blob/dab6854d4d599aafb0eb36e6c7ae1fe0c37509b7/APIs/spotify.com/2021.4.2/openapi.yaml
