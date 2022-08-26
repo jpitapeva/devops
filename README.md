@@ -1,5 +1,9 @@
 # devops
-API desenvolvida em .net 6.0 para listar os projetos e repositorios do devops
+API desenvolvida em .net 6.0 com integracao REST com devops para:
+
+1 - Discovery de projetos<br/>
+2 - Discovery de repositorios<br/>
+3 - Discovery de commits<br/>
 
 
 Para obter os projetos ou repositorios deve ser informado o PAT(Personal access token) e a organização do seu devops<br/>
