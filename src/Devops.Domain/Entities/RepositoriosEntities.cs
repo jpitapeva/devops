@@ -1,22 +1,22 @@
 ﻿using Newtonsoft.Json;
 
-namespace Devops.Infra.ExternalService.Entities
+namespace Devops.Domain.Entities
 {
     public class RepositoriosEntities
     {
         public class Response
         {
-            [JsonProperty("Value")] 
+            [JsonProperty("Value")]
             public IEnumerable<Propriedade>? Propriedades { get; set; }
 
-            [JsonProperty("Count")] 
+            [JsonProperty("Count")]
             public int? Quantidade { get; set; }
         }
 
         public class Propriedade
         {
             [JsonProperty("Id")]
-            public string? Id { get; set; }
+            public Guid? Id { get; set; }
 
             [JsonProperty("Name")]
             public string? Nome { get; set; }

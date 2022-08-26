@@ -10,8 +10,8 @@ namespace Devops.Infra.Mappings
         {
             services.AddSingleton(_ => new MapperConfiguration(cfg =>
             {
-                cfg.AddProfile(new ExternalServiceToApplicationProfile());
-                cfg.AddProfile(new ApplicationToExternalServiceProfile());
+                cfg.AddProfile(new ExternalServiceToViewModelProfile());
+                cfg.AddProfile(new ViewModelToExternalServiceProfile());
             }).CreateMapper());
 
             return services;

@@ -1,4 +1,4 @@
-﻿using Devops.Infra.ExternalService.Interfaces;
+﻿using Devops.Domain.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Devops.Infra.ExternalService

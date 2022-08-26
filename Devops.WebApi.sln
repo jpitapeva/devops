@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devops.WebApi", "src\Devops
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devops.Application", "src\Devops.Application\Devops.Application.csproj", "{6701FB88-FC9E-41D9-96C3-46356FB6962F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devops.Model", "src\Devops.Model\Devops.Model.csproj", "{AC30FD3F-79F7-4E9D-A080-B826F2CE24A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devops.Model", "src\Devops.Model\Devops.Model.csproj", "{AC30FD3F-79F7-4E9D-A080-B826F2CE24A9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{0CFA5EC9-2DBF-46CE-8255-EF461B53DF8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devops.Infra.Mappings", "src\Devops.Infra.Mappings\Devops.Infra.Mappings.csproj", "{D7655C71-A451-43C5-B1AF-9FE97B5DB3B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devops.Infra.Mappings", "src\Devops.Infra.Mappings\Devops.Infra.Mappings.csproj", "{D7655C71-A451-43C5-B1AF-9FE97B5DB3B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devops.Infra.ExternalService", "src\Devops.Infra.ExternalService\Devops.Infra.ExternalService.csproj", "{25CFED73-430A-438C-B676-2DB9292C8620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devops.Infra.ExternalService", "src\Devops.Infra.ExternalService\Devops.Infra.ExternalService.csproj", "{25CFED73-430A-438C-B676-2DB9292C8620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devops.Domain", "src\Devops.Domain\Devops.Domain.csproj", "{19455803-BB73-4885-81BE-4D6536777E26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{25CFED73-430A-438C-B676-2DB9292C8620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25CFED73-430A-438C-B676-2DB9292C8620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25CFED73-430A-438C-B676-2DB9292C8620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19455803-BB73-4885-81BE-4D6536777E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19455803-BB73-4885-81BE-4D6536777E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19455803-BB73-4885-81BE-4D6536777E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19455803-BB73-4885-81BE-4D6536777E26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,15 @@
 ﻿using Newtonsoft.Json;
 
-namespace Devops.Infra.ExternalService.Entities
+namespace Devops.Domain.Entities
 {
     public class ProjetosEntities
     {
+        public class Request
+        {
+            [JsonProperty("Count")]
+            public int? ValorMaximo { get; set; }
+        }
+
         public class Response
         {
             [JsonProperty("Count")]
@@ -17,7 +23,7 @@ namespace Devops.Infra.ExternalService.Entities
         {
             [JsonProperty("Id")]
             public string? Id { get; set; }
-            
+
             [JsonProperty("Name")]
             public string? Nome { get; set; }
 
@@ -26,7 +32,7 @@ namespace Devops.Infra.ExternalService.Entities
 
             [JsonProperty("Url")]
             public string? Url { get; set; }
-            
+
             [JsonProperty("State")]
             public string? Estado { get; set; }
 

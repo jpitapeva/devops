@@ -1,4 +1,4 @@
-﻿namespace Devops.Infra.ExternalService.Entities
+﻿namespace Devops.Domain.Entities
 {
     public class RequestBaseEntities
     {

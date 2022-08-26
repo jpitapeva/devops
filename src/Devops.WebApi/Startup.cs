@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using Devops.Application;
 using Devops.Infra.ExternalService;
 using Devops.Infra.Mappings;
+using Devops.Domain;
 
 namespace Devops.WebApi
 {
@@ -29,6 +30,7 @@ namespace Devops.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDomainServices();
             services.AddApplicationServices();
             services.AddMappings();
             services.AddExternalServices();
